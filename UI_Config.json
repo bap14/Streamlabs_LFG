@@ -1,0 +1,92 @@
+{
+  "output_file": "settings/settings.json",
+  "Command": {
+    "type": "textbox",
+    "value": "!lfg",
+    "label": "Chat Command",
+    "tooltip": "Command chat uses to use LFG system",
+    "group": "General"
+  },
+  "Permission": {
+    "type": "dropdown",
+    "value": "Everyone",
+    "items": [
+      "Everyone", "Regular", "Subscriber", "GameWisp Subscriber", "User_Specific", "Min_Rank", "Min_Points",
+      "Min_Hours", "Moderator", "Editor", "Caster"
+    ],
+    "label": "Permission to use",
+    "tooltip": "Minimum user level to use LFG",
+    "group": "General"
+  },
+  "PermissionInfo": {
+    "type": "textbox",
+    "value": "",
+    "label": "Permission Info",
+    "tooltip": "Set the user, rank or tier for selected permission (if applicable)",
+    "group": "General"
+  },
+  "ListAllCommand": {
+    "type": "textbox",
+    "value": "list",
+    "label": "List All LFG Entries Sub-command",
+    "tooltip": "Command chat uses to list all LFG entries",
+    "group": "General"
+  },
+  "ListAllCommandPermission": {
+    "type": "dropdown",
+    "value": "Moderator",
+    "items": [
+      "Everyone", "Regular", "Subscriber", "GameWisp Subscriber", "User_Specific", "Min_Rank", "Min_Points",
+      "Min_Hours", "Moderator", "Editor", "Caster"
+    ],
+    "label": "Permission to list all LFG entries",
+    "tooltip": "Minimum user level to list all LFG entries",
+    "group": "General"
+  },
+  "ListAllCommandPermissionInfo": {
+    "type": "textbox",
+    "value": "",
+    "label": "List All LFG Entries Permission Info",
+    "tooltip": "Set the user, rank or tier for selected permission (if applicable)",
+    "group": "General"
+  },
+  "HelpCommand": {
+    "type": "textbox",
+    "value": "help",
+    "label": "LFG Help Sub-command",
+    "tooltip": "Command chat uses to show how to use LFG system",
+    "group": "General"
+  },
+  "Message_LFG_Usage": {
+    "type": "textbox",
+    "value": "To add your group to our LFG list, type this in chat: {1} <console> <activity>",
+    "label": "LFG Usage Response",
+    "tooltip": "Response sent to LFG Help command",
+    "group": "Messages"
+  },
+  "Manage_ClearKeyword": {
+    "type": "textbox",
+    "value": "clear",
+    "label": "Clear LFG Entries Sub-command",
+    "tooltip": "Command chat uses to list all LFG entries",
+    "group": "General"
+  },
+  "Manage_ClearKeywordPermission": {
+    "type": "dropdown",
+    "value": "Moderator",
+    "items": [
+      "Everyone", "Regular", "Subscriber", "GameWisp Subscriber", "User_Specific", "Min_Rank", "Min_Points",
+      "Min_Hours", "Moderator", "Editor", "Caster"
+    ],
+    "label": "Permission to clear LFG entries",
+    "tooltip": "Minimum user level to clear all LFG entries",
+    "group": "General"
+  },
+  "Manage_ClearKeywordPermissionInfo": {
+    "type": "textbox",
+    "value": "",
+    "label": "Clear LFG Entries permission info",
+    "tooltip": "Set the user, rank or tier for selected permission (if applicable)",
+    "group": "General"
+  }
+}
